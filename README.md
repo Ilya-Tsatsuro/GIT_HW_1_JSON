@@ -46,7 +46,7 @@ Command: cat >> new.json
 ```
 11. Отправить изменения на внешний репозиторий.
 ```bash
-Command: git commit -am "modify new.json"
+Command: git commit -m "modify new.json"
 Command: git push
 ```
 12. Создать файл preferences.json
@@ -55,7 +55,7 @@ Command: touch preferences.json
 ```
 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
 ```bash
-Command: nano >> preferences.json
+Command: cat >> preferences.json
 {
     "name": "Ilia",
     "age": 29,
@@ -68,7 +68,7 @@ Command: nano >> preferences.json
 Command: touch skills.json
 ```
 ```bash
-Command: nano >> preferences.json
+Command: cat >> preferences.json
 {
     "skills": ["SDLC", "STLC", "HTTP", "JSON", "XML", "API", "Postman", "Charles", "Fiddler", "DevTools", "VPN", "SQL", "Redis"]
 }
@@ -78,7 +78,7 @@ Command: nano >> preferences.json
 Command: git add .
 ```
  ```bash 
-Command: git commit -m "add 2 files"
+Command: git commit -am "add 2 files"
 ```
  ```bash 
 Command: git push
