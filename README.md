@@ -11,7 +11,7 @@ Command: cd Desktop/Тестирование/gitrepo/
 
 4. Создать внешний репозиторий c названием JSON.
 
-![](https://github.com/Ilya-Tsatsuro/Screenshot/blob/main/Create_repo.png?raw=true)
+![](https://github.com/Ilya-Tsatsuro/Screenshot/blob/main/HW_1_Git/Create_repo.png?raw=true)
 
 5. Клонировать репозиторий JSON на локальный компьютер.
 ```bash
@@ -63,14 +63,14 @@ Command: nano >> preferences.json
     "desired_salary": 5000
 }
 ```
-14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 ```bash 
-Command: touch sklls.json
+Command: touch skills.json
 ```
 ```bash
 Command: nano >> preferences.json
 {
-    "sklls": ["SDLC", "STLC", "HTTP", "JSON", "XML", "API", "Postman", "Charles", "Fiddler", "DevTools", "VPN", "SQL", "Redis"]
+    "skills": ["SDLC", "STLC", "HTTP", "JSON", "XML", "API", "Postman", "Charles", "Fiddler", "DevTools", "VPN", "SQL", "Redis"]
 }
 ```
 15. Отправить сразу 2 файла на внешний репозиторий.
@@ -105,5 +105,5 @@ Command: git push
 
 20. Синхронизировать внешний и локальный репозиторий JSON
 ```bash
-Command:  git pull
+Command: git pull
 ```
