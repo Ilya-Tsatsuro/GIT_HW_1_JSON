@@ -1,8 +1,9 @@
 {
- "id": 101 
+ "id": 101, 
   "Title": "Clicking on the Viber icon in the support side menu does not switch to the messenger",
   "STR": {"Step_1": "Open capital.com",
           "Step_2": "Click on icon Viber"
           },
-  "AR": "The messenger page Viber does not open"
+  "AR": "There is no transition to the Viber messenger page",
+  "ER": "he Viber messenger page opens"
 }

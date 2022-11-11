@@ -2,5 +2,5 @@
     "name": "Ilia",
     "age": 29,
     "pet": "dog",
-    "desired_salary": 5000
+    "desired_salary($)": 5000
 }
